@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+#NavbarH {
+  background-color: rgb(47, 5, 5);
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+
+.LoginName {
+  background-color: red;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+}

@@ -1,0 +1,162 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.HomeImg{
+    width: 100%;
+    height: 430px;
+    text-align: center;
+    opacity: 0.8;
+}
+
+.card-img-overlay{
+    margin: 2rem;
+}
+
+.card-title{
+    color: red;
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.card-text{
+    color: rgb(25, 22, 159);
+    font-size: 2rem;
+    font-weight: bold;
+    width: 40vw;
+}
+
+.ProfileProduct{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 20px;
+    flex-wrap: wrap;
+}
+
+.ProfileProduct > img{
+      margin: 20px;
+}
+
+footer{
+    max-width: 100%;
+    background: linear-gradient(to right, #00093c, #2d0b00);
+    color: #fff;
+    padding: 50px 0 30px;
+    border-top-left-radius: 225px;
+    font-size: 13px;
+}
+.row{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.col{
+    flex-basis: 25%;
+    padding: 10px;
+}
+
+.FootLogo{
+    border-radius: 50%;
+    margin-bottom: 30px;
+}
+
+.col h3{
+    width: fit-content;
+    margin-bottom: 50px;
+    position: relative;
+}
+
+
+.email{
+    width: fit-content;
+    border-bottom: 1px solid #ccc;
+    margin: 20px 0;
+}
+
+.col > ul li{
+    list-style: none;
+    margin-bottom: 12px;
+    margin-left: 1px;
+}
+
+.col > ul li a{
+    text-decoration: none;
+    color: white;
+    margin-left: -20px;
+}
+
+.Explore{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+
+
+
+
+/* Media Query */
+@media (max-width: 1100px) {
+    .card-title {
+      font-size: 1.8rem;
+    }
+    .card-text{
+       font-size: 1.1rem;
+    }
+    .HomeImg{
+        width: 100%;
+        height: 330px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 1000px) {
+    .card-title {
+      font-size: 1.6rem;
+    }
+    .card-text{
+       font-size: 1rem;
+    }
+    .HomeImg{
+        width: 100%;
+        height: 330px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 800px) {
+    .card-title {
+      font-size: 1.3rem;
+    }
+    .card-text{
+       font-size: 1rem;
+    }
+    .HomeImg{
+        width: 100%;
+        height: 330px;
+        text-align: center;
+    }
+  }
+
+  @media (max-width: 500px) {
+    .card-title {
+      font-size: 1.3rem;
+    }
+    .card-text{
+       font-size: 1rem;
+    }
+    .HomeImg{
+        width: 100%;
+        height: 330px;
+        text-align: center;
+    }
+  }
